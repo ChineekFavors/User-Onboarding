@@ -31,3 +31,55 @@
     transform: rotate(360deg);
   }
 }
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 0 auto;
+  
+}
+.divForm{
+  border: 1px solid black;
+  width: 420px;
+  margin: 0 auto;
+  text-align: center;
+
+
+}
+.submitButton{
+  width: 50px;
+  margin: 0 auto;
+}
+.submitButton:hover{
+  background-color: blue;
+}
+.name{
+  margin-bottom: 20px;
+}
+.email{
+  margin-bottom: 20px;
+}
+.password{
+  margin-bottom: 20px;
+}
+.label{
+  margin-bottom: 20px;
+}
+.errors{
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
